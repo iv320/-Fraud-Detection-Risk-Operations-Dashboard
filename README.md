@@ -13,14 +13,16 @@ Fraudulent activities result in significant financial losses and operational ove
 📊 Key Performance Indicators (KPIs)
 The dashboard tracks 4 critical metrics for fraud operations:
 
-Total Transactions: Total volume of transaction data analyzed.
-Flagged Transactions: Count of transactions triggered by risk rules.
-Fraud Rate %: The percentage of high-risk transactions vs. total volume.
-Avg Risk Score: A health metric representing the overall risk level of the transaction pool.
+1. Total Transactions: Total volume of transaction data analyzed.
+2. Flagged Transactions: Count of transactions triggered by risk rules.
+3. Fraud Rate %: The percentage of high-risk transactions vs. total volume.
+4. Avg Risk Score: A health metric representing the overall risk level of the transaction pool.
+   
 🛠️ Tech Stack
 Power BI: Data visualization, DAX modeling, and dashboard design.
 Python (Pandas): Data engineering, cleansing, and risk-scoring pipeline.
 Rule-Based Engine: Each transaction is assigned a composite risk score based on amount anomalies, transaction velocity, and foreign transaction indicators
+
 📂 Project Structure
 |
 ├── data/
