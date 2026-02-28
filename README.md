@@ -23,7 +23,7 @@ Power BI: Data visualization, DAX modeling, and dashboard design.
 Python (Pandas): Data engineering, cleansing, and risk-scoring pipeline.
 Rule-Based Engine: Each transaction is assigned a composite risk score based on amount anomalies, transaction velocity, and foreign transaction indicators
 
-📂 Project Structure
+Project Structure
 |
 ├── data/
 |   ├── raw_transactions.csv
